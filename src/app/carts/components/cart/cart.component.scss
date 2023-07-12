@@ -1,0 +1,36 @@
+.cart {
+    h3 {
+        color: #ff983f;
+    }
+
+    table {
+
+        td,
+        th {
+            color: white;
+        }
+
+        tbody {
+            // border-bottom: #ff983f;
+            // border-top: #ff983f;
+
+            img {
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+            }
+
+            input {
+                text-align: center;
+            }
+
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+                /* display: none; <- Crashes Chrome on hover */
+                -webkit-appearance: none;
+            }
+        }
+
+
+    }
+}

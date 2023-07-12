@@ -1,0 +1,15 @@
+<div class="row" *ngIf="!loading">
+    <div class="col-md-6">
+        <div class="imgDetails d-flex justify-content-end">
+            <img src="{{data.image}}">
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="productDetails">
+            <p class="text-white fs-3 fw-light">Title : <span class="fs-5">{{data.title}}</span> </p>
+            <p class="text-white fs-4 fw-light">Price : <span>{{data.price}}</span> $</p>
+            <p class="text-white fs-4 fw-light">Category : <span>{{data.category}}</span> </p>
+        </div>
+    </div>
+    <app-spinner *ngIf="loading"></app-spinner>
+</div>

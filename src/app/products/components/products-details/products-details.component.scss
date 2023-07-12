@@ -1,0 +1,25 @@
+.productDetails {
+    margin-top: 100px ;
+    span{
+        color: #ff983f;
+    }
+}
+
+.imgDetails {
+    width: 300px;
+    height: 400px;
+    margin-left: auto;
+    margin-top: 100px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 5px 5px 20px #ff983f, -5px -5px 20px #929292;
+
+    img {
+        margin: auto;
+        width: 250px;
+        height: 390px;
+        border-radius: 30px;
+        mix-blend-mode: multiply;
+    }
+    
+}

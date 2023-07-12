@@ -1,0 +1,5 @@
+<label for="" class="my-1 text-white fw-bolder">{{title}} :</label>
+<select class="form-control" (change)="detectChanges($event)">
+    <option value="all" *ngIf="all" selected>All</option>
+    <option class="fw-lighter" value="{{option}}" [selected]="option ==select" *ngFor="let option of data">{{option}}</option>
+</select>
